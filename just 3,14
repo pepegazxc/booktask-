@@ -1,0 +1,9 @@
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Число пи с точностью до сотых: p = 3,14");
+
+
+
+        }
+    }
