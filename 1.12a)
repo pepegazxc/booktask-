@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {;
+
+        //Введите в значение а 5. в значение b 10, в значение с 7 и в значение i "см" по условию задачи
+        int a = 5;
+        int b = 10;
+        int c = 7;
+        String i = "cm";
+
+        System.out.print(a+" " +b);
+        System.out.println();
+        System.out.print(c+" "+i);
+    }
+}
