@@ -1,0 +1,51 @@
+public class Main {
+    public static void main(String[] args) {;
+        //Задание 1.14 требует записать по правилам изучаемого языка программирования выражения:
+        //1)2x
+        //2)sin x
+        //3)a^2
+        //4)√x
+        //5)|n|
+        //6)5cos y
+        //7)-7,5a^2
+        //8)3√x
+        //9)sinA cosB + cosA sinB
+        //10)a√2b
+        //11)3sin2A cos3B
+        //12)-5√x+√y
+
+        //Представим что каждое неизвествое нам значение (a,x,n и т.д) = 2э
+        int a = 2;
+        int x = 2;
+        int n = 2;
+        int y = 2;
+        int A = 2;
+        int B = 2;
+        int b = 2;
+
+        int result1 = 2 * x;
+        System.out.println(result1);
+        double result2 = Math.sin(x);
+        System.out.println(result2);
+        double result3 = Math.pow(a, 2);
+        System.out.println(result3);
+        double result4 = Math.sqrt(x);
+        System.out.println(result4);
+        int result5 = Math.abs(n);
+        System.out.println(result5);
+        double result6 = 5 * Math.cos(y);
+        System.out.println(result6);
+        double result7 = -7.5 * Math.pow(a, 2);
+        System.out.println(result7);
+        double result8 = 3 * Math.cbrt(x);
+        System.out.println(result8);
+        double result9 = Math.sin(A) * Math.cos(B) + Math.cos(A) * Math.sin(B);
+        System.out.println(result9);
+        double result10 = a * Math.sqrt(2 * b);
+        System.out.println(result10);
+        double result11 = 3 * Math.sin(2 * A) * Math.cos(3 * B);
+        System.out.println(result11);
+        double result12 = -5 * Math.sqrt(x) + Math.sqrt(y);
+        System.out.println(result12);
+    }
+}
