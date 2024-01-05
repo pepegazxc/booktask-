@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {;
+        Scanner scanner = new Scanner(System.in);
+
+        //Введите значение а с клавиатуры. в значение t вводим число 1, в значение с 19 и в значение b вводим число с клавиатуры  по условию задачи
+        int a = 1;
+        System.out.print("Введите любое число a:");
+        int t = scanner.nextInt();
+        int c = 19;
+        System.out.print("Введите лююоле число b:");
+        int b = scanner.nextInt();
+
+        System.out.println(t+" "+a);
+        System.out.println(c+" "+b);
+
+    }
+}
