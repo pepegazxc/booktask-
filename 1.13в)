@@ -1,1 +1,21 @@
+import java.util.Scanner;
 
+public class Main {
+    public static void main(String[] args) {;
+        Scanner scanner = new Scanner(System.in);
+
+        //Введите  значение х с клавиатуры. в значение y вводим число с клавиатуры, в значение с 5 и в значение y2 вводим число с клавиатуры  по условию задачи
+        System.out.print("Введите люболе число x:");
+        int x = scanner.nextInt();
+        int c = 5;
+        System.out.print("Введите люболе число y 1:");
+        int j = scanner.nextInt();
+        System.out.print("Введите люболе число y 2:");
+        int y= scanner.nextInt();
+
+        System.out.print(x+" "+j);
+        System.out.println();
+        System.out.print(c+" "+y);
+
+    }
+}
